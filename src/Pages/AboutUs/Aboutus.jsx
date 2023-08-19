@@ -5,6 +5,7 @@ import myImage1 from "../image/iykons.jpg";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import SendMessage from "../SendMessaage/SendMessage";
+
 export default function Aboutus() {
   return (
     <>
@@ -18,6 +19,9 @@ export default function Aboutus() {
             <h2>About</h2>
           </div>
         </div>
+
+        {/*set one */}
+
         <section id="about" class="about mt-5">
           <div class="container" data-aos="fade-up">
             <div class="row position-relative">
@@ -39,16 +43,15 @@ export default function Aboutus() {
                   </p>
                   <ul>
                     <li>
-                      <i class="bi bi-check-circle"></i>{" "}
-                      <span>Chessington, Greater London, United Kingdom</span>
+                      <i class="bi bi-check-circle"></i> Chessington, Greater
+                      London, United Kingdom
                     </li>
                     <li>
-                      <i class="bi bi-check-circle"></i>{" "}
-                      <span>Chennai, Tamil Nadu, India</span>
+                      <i class="bi bi-check-circle"></i> Chennai, Tamil Nadu,
+                      India
                     </li>
                     <li>
-                      <i class="bi bi-check-circle"></i>{" "}
-                      <span>Sydney, Australia</span>
+                      <i class="bi bi-check-circle"></i> Sydney, Australia
                     </li>
                   </ul>
                   <p>
@@ -62,6 +65,8 @@ export default function Aboutus() {
           </div>
         </section>
 
+        {/*set two */}
+
         <div class="row mt-5 hi">
           <div class="d-md-flex post-entry-2 half">
             <a href="#" class="me-4 thumbnail">
@@ -69,11 +74,10 @@ export default function Aboutus() {
             </a>
             <div class="ps-md-5 mt-4 mt-md-0">
               <h2 class="pt-5 display-4">Company History</h2>
-
               <p>
                 Jey Founded IYKONS in 2008 after observing a significant gap in
                 the SME market for a one-stop solution for striving business
-                people. IYKONS organisation and the team were designed to
+                people. IYKONS organization and the team were designed to
                 address any challenge a business person throws. We will solve it
                 or find a way to solve it within the customer’s timeframe.
                 Hundreds of IYKONS customers are out there to prove our
@@ -85,43 +89,26 @@ export default function Aboutus() {
               </p>
               <p>What Makes Us the Best Choice?</p>
               <ul class="list">
+                <li>Cost-effective fixed fee services.</li>
+                <li>Wide range of industry expertise.</li>
+                <li>Fully accredited and regulated.</li>
                 <li>
-                  {" "}
-                  <span>Cost-effective fixed fee services.</span>
+                  Follow strict regulatory standards to safeguard our clients
+                  from possible legal actions.
                 </li>
+                <li>Focused on customer needs and on-time delivery.</li>
                 <li>
-                  {" "}
-                  <span>Wide range of industry expertise</span>
+                  Personalized services with laser-focused attention to every
+                  client.
                 </li>
-                <li>
-                  {" "}
-                  <span>Fully accredited and regulated.</span>
-                </li>
-                <li>
-                  <span>
-                    Follow strict regulatory standards to safeguard our clients
-                    from possible legal actions.
-                  </span>
-                </li>
-                <li>
-                  {" "}
-                  <span>Focused on customer needs and on-time delivery.</span>
-                </li>
-                <li>
-                  {" "}
-                  <span>
-                    Personalised services with laser-focused attention to every
-                    client.
-                  </span>
-                </li>
-                <li>
-                  {" "}
-                  <span>IYKONS – Outsourcing to excellence.</span>
-                </li>
+                <li>IYKONS – Outsourcing to excellence.</li>
               </ul>
             </div>
           </div>
         </div>
+
+        {/*set three */}
+
         <section id="testimonials" class="testimonials section-bg mt-5 mb-5">
           <div class="container" data-aos="fade-up">
             <div class="section-header pt-5">

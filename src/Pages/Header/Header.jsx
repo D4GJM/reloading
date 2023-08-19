@@ -131,14 +131,14 @@ export default function Header() {
                 </a>
                 <ul>
                   <li>
-                    <Link to="#">IYPAY</Link>
+                    <Link to="/FinTech">FinTech</Link>
                   </li>
 
                   <li>
-                    <Link to="/Iykonnect">IYCONNECT</Link>
+                    <Link to="/IYConnect">IYCONNECT</Link>
                   </li>
                   <li>
-                    <Link to="/Fantach">Fintech Services & Solutions</Link>
+                    <Link to="/Privacy">Privacy & Policy</Link>
                   </li>
                 </ul>
               </li>

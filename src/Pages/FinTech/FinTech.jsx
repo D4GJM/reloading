@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/IConnect.css";
+import "./FinTech.css";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import image3 from "../image/imj.jpg";

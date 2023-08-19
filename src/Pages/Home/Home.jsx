@@ -46,99 +46,19 @@ export default function Home() {
                 className="carousel-item"
                 style={{ backgroundImage: { image2 } }}
               >
-                <div className="carousel-container">
-                  <div className="carousel-content">
-                    <h1>IYKONS</h1>
-                    <p>
-                      <h2>Welcome to IYKONS</h2>
-                      IYKONS offers complete financial, IT, and business support
-                      solutions for companies and individuals across three
-                      continents. Our excellent team of specialists can help you
-                      and your business with your financial, IT, and business
-                      support needs. Our mission is to meet the needs of SMEs
-                      under one roof. We relish the challenges of finding the
-                      best solutions for you, and we thrive on making our
-                      clients happy. To find out more about our services, please
-                      do not hesitate to contact us online or at your nearest
-                      local office.
-                    </p>
-                  </div>
-                </div>
               </div>
               <div
                 className="carousel-item"
                 style={{ backgroundImage: { image3 } }}
               >
-                <div className="carousel-container">
-                  <div className="carousel-content">
-                    <h1>IYKONS</h1>
-                    <p>
-                      <h2>Welcome to IYKONS</h2>
-                      IYKONS offers complete financial, IT, and business support
-                      solutions for companies and individuals across three
-                      continents. Our excellent team of specialists can help you
-                      and your business with your financial, IT, and business
-                      support needs. Our mission is to meet the needs of SMEs
-                      under one roof. We relish the challenges of finding the
-                      best solutions for you, and we thrive on making our
-                      clients happy. To find out more about our services, please
-                      do not hesitate to contact us online or at your nearest
-                      local office.
-                    </p>
-                  </div>
-                </div>
+                
               </div>
-              <div
-                className="carousel-item"
-                style={{ backgroundImage: { image4 } }}
-              >
-                <div className="carousel-container">
-                  <div className="carousel-content">
-                    <h1>IYKONS</h1>
-                    <p>
-                      <h2>Welcome to IYKONS</h2>
-                      IYKONS offers complete financial, IT, and business support
-                      solutions for companies and individuals across three
-                      continents. Our excellent team of specialists can help you
-                      and your business with your financial, IT, and business
-                      support needs. Our mission is to meet the needs of SMEs
-                      under one roof. We relish the challenges of finding the
-                      best solutions for you, and we thrive on making our
-                      clients happy. To find out more about our services, please
-                      do not hesitate to contact us online or at your nearest
-                      local office.
-                    </p>
-                  </div>
-                </div>
-              </div>
+             
               <div
                 className="carousel-item"
                 style={{ backgroundImage: { image5 } }}
               >
-                <div className="carousel-container">
-                  <div className="carousel-content">
-                    <h1>IYKONS</h1>
-                    <p>
-                      <h2>Welcome to IYKONS</h2>
-                      IYKONS offers complete financial, IT, and business support
-                      solutions for companies and individuals across three
-                      continents. Our excellent team of specialists can help you
-                      and your business with your financial, IT, and business
-                      support needs. Our mission is to meet the needs of SMEs
-                      under one roof. We relish the challenges of finding the
-                      best solutions for you, and we thrive on making our
-                      clients happy. To find out more about our services, please
-                      do not hesitate to contact us online or at your nearest
-                      local office.
-                    </p>
-                    <a
-                      href="#featured-services"
-                      className="btn-get-started scrollto"
-                    >
-                      Get Started
-                    </a>
-                  </div>
-                </div>
+                
               </div>
             </div>
             <a
@@ -403,68 +323,6 @@ About Us Section
           </div>
         </div>
       </section>
-      {/* #about */}
-      {/*==========================
-Call To Action Section
-    ============================*/}
-      {/*<section id="call-to-action" className="wow fadeIn">
-        <div className="container text-left">
-          <div className="content-wrapper">
-            <div className="text-content">
-              <h3>Our History</h3>
-              <br></br>
-              <h6>
-                <p>
-                  Jey Founded IYKONS in 2008 after observing a significant gap
-                  in the SME market for a one-stop solution for aspiring
-                  business people. The IYKONS organisation and team were created
-                  to address the various challenges that running a business
-                  entails. We have a proven track record of successfully
-                  supporting hundreds of businesses across three continents.
-                </p>
-              </h6>
-              <p>
-                IYKONS manages over 500 portfolios across a variety of sectors,
-                from not-for-profit to aeronautical industries.
-              </p>
-              <p>What Makes Us the Best Choice?</p>
-              <ul>
-                <li>Cost-effective fixed fee services.</li>
-                <li>A wide range of industry expertise</li>
-                <li>Fully accredited and regulated.</li>
-                <li>
-                  We follow strict regulatory standards to safeguard our clients
-                </li>
-                <li>We are focused on customer needs and timely delivery.</li>
-                <li>
-                  Personalised services with laser-focused attention for every
-                  client.
-                </li>
-              </ul>
-              <a className="cta-btn" href="#">
-                Contact US
-              </a>
-            </div>
-            <div className="image-content">
-              <img src={ourHistory} alt="" className="img-fluid" />
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* #call-to-action *
-
-      <section id="skills">
-        <div className="container">
-          <header className="section-header">
-            <h3>Our Skills</h3>
-            <p>fill in the blanks</p>
-          </header>
-        </div>
-  </section>*/}
-      {/*==========================
-Services Section
-    ============================*/}
-
       <Footer />
     </>
   );

@@ -9,14 +9,16 @@ import DigitalMarketing from './Pages/DigitalMarketing_Branding/DigitalMarketing
 import Aboutus from './Pages/AboutUs/Aboutus';
 import Contactus from './Pages/Contactus/Contactus'
 import Home from './Pages/Home/Home';
-import Fantach from './Pages/Ipay/Fantach';
-import Iykonnect from './Pages/Home/IYConnect';
+import FinTech from './Pages/FinTech/FinTech';
+import IYConnect from './Pages/Home/IYConnect';
+import Privacy from './Pages/Home/Privacy';
 import BusinessSupport from './Pages/Home/BusinessSupportConsultation';
 import BusinessPersonalFinance from './Pages/Home/BusinessFinace';
 
 
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
 function App() {
   return (
     
@@ -28,10 +30,11 @@ function App() {
         <Route path="/TechnologyandInnovation" element={<TechnologyandInnovation />} />
         <Route path="/AccountandFinance" element={<AccountandFinance />} />
         <Route path="/DigitalMarketing" element={<DigitalMarketing />} />
-        <Route path="/Fantach" element={<Fantach />} />
-        <Route path="/Iykonnect" element={<Iykonnect />} />
+        <Route path="/FinTech" element={<FinTech />} />
+        <Route path="/IYConnect" element={<IYConnect />} />
         <Route path="/BusinessSupport" element={<BusinessSupport />} />
         <Route path="/BusinessPersonalFinance" element={<BusinessPersonalFinance />} />
+        <Route path="/Privacy" element={<Privacy />} />
       </Routes>
     </BrowserRouter>
   

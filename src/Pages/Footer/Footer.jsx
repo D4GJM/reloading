@@ -10,6 +10,7 @@ import "../assets/vendor/remixicon/remixicon.css";
 import "../assets/vendor/swiper/swiper-bundle.min.css";
 import "../css/Footer.css";
 import { Link } from "react-router-dom";
+import Privacy from "../Home/Privacy";
 export default function Footer() {
   return (
     <>
@@ -129,7 +130,7 @@ export default function Footer() {
             </strong>{" "}
             <div>
               {" "}
-              <Link to="">Privacy/Policy</Link>
+              <Link to="/Privacy"><Privacy/></Link>
             </div>
           </div>
           <div className="credits">

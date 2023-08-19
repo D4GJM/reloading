@@ -538,6 +538,8 @@
   text-align: center;
   padding-top: 30px;
 }
+
+
 #intro {
   margin-top: 100px;
   display: table;
@@ -610,15 +612,6 @@
   text-align: center;
 }
 
-#intro p {
-  width: 80%;
-  margin: 0 auto 30px auto;
-  color: #fff;
-}
-
-#intro .carousel-item:hover .carousel-content {
-  transform: translateY(-10px);
-}
 
 #intro .carousel-item:hover h1 {
   transform: scale(1.1);
@@ -659,25 +652,3 @@
 }
 
   
-
-  #intro .carousel-control-prev,
-  #intro .carousel-control-next {
-    width: 5%;
-  }
-
-  
-#intro .carousel-control-next-icon,
-#intro .carousel-control-prev-icon {
-  background: none;
-  font-size: 32px;
-  line-height: 1;
-}
-
-#intro .carousel-indicators li {
-  cursor: pointer;
-}
-
-#intro .btn-get-started:hover {
-  background: #fff;
-  color: #ffffff;
-}
